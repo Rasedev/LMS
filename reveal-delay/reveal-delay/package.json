@@ -1,0 +1,37 @@
+{
+  "name": "jquery-delay-text",
+  "version": "1.0.1",
+  "readme": "README.md",
+  "homepage": "https://jquery-delay-text.jrquick.com",
+  "scripts": {
+    "shipit": "npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jrquick17/jquery-delay-text"
+  },
+  "author": {
+    "name": "Jeremy Quick",
+    "email": "me@jrquick.com",
+    "url": "https://jrquick.com"
+  },
+  "keywords": [
+    "jquery",
+    "delay-text",
+    "jquery-delay-text"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jrquick17/jquery-delay-text/issues"
+  },
+  "main": "delay-text.js",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "peerDependencies": {
+    "jquery": "^3.5.0"
+  },
+  "dependencies": {
+    "jquery": "^3.5.0"
+  }
+}

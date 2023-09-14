@@ -1,0 +1,91 @@
+
+
+
+/* converter */
+ .wrapper{
+     background-image: url(./images/8.jpeg);
+	max-width: 800px;
+	background-color: lavender;
+	width: 100%;
+	height: 620px;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+	border-radius: 10px;
+	margin-top: 60px; 
+	
+	/* position:absolute;
+     top: 50%;
+    left: 50%;
+	transform: translate(-50%, -50%);  */
+
+}
+.wrapper_item {
+    display: flex;
+    justify-content: space-between;
+    max-width: 350px;
+    width: 100%;
+	padding: 0 35px;
+}
+.wrapper > h1{
+	color: #fff;
+     font-family: cursive;
+	 padding: 10px 0;
+     margin-bottom: 5px;
+}
+
+.input_wrapper{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 15px;
+}
+.input_wrapper input {
+    padding: 10px;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 6px 0;
+    text-align: right;
+    cursor: progress;
+}
+.input_wrapper input:focus{
+	border: 1px solid #333333;
+}
+
+.image img {
+    width: 350px;
+
+    height: 300px;
+    object-fit: cover;
+    /* position: absolute; */
+    margin-left: 37px;
+}
+video {
+    max-width: 350px;
+    width: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    /* transform: rotateX(45deg); */
+    /* margin-left: 268px;
+    top: -20px;
+    height: 145px; */
+    /* opacity: 0.7; */
+}
+
+button.btn {
+	font-family:cursive ;
+    background-color: darkslategrey;
+    color: #fff;
+	padding: 10px 20px;
+	border: none;
+    border-radius: 4px;
+	outline: none;
+	margin-bottom: 100px;
+	cursor: pointer;
+}
+button.btn:hover {
+    background-color: maroon;
+    color: #fff;
+	cursor: pointer;
+} 

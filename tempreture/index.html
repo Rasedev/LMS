@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tempreture Converter</title>
+
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+ 
+    <div class="wrapper">
+        <h1>Temperature Converter</h1>
+        <div class="wrapper_item">
+
+
+            <!-- <div class="image"><video src="./video/RAIN.mp4"></video> </div> -->
+            <!-- <video id="player" class="weather_image" preload="auto" loop="loop" muted width="300" height="240">
+            <source src="./video/RAIN.mp4" type="video/mp4">
+            
+        </video> -->
+
+            <video id="player" width="320" height="240" poster="/images/p65.jpeg">
+                <source src="./video/RASEL5.mp4" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">
+
+            </video>
+
+
+
+
+            <div class="image">
+                <img class="weather_image" src="./images/x.jpeg" alt="">
+
+
+            </div>
+        </div>
+
+        <div class="input_wrapper">
+
+            <input type="text" placeholder="Celcius" class="celcius">
+            <input type="text" placeholder="Fahrenheit" class="fahrenheit">
+            <input type="text" placeholder="Kelvin" class="kelvin">
+
+        </div>
+
+        <button id="play" class="btn">Convert</button>
+
+
+
+
+    </div>
+
+
+
+
+    <script src="App.js"></script>
+
+
+</body>
+
+</html>
